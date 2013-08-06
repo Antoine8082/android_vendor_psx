@@ -26,12 +26,6 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/psx/overlay/dictionaries
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
 
-# system/lib
-PRODUCT_COPY_FILES += \
-    vendor/psx/proprietary/common/system/lib/libjni_eglfence.so:system/lib/libjni_eglfence.so \
-    vendor/psx/proprietary/common/system/lib/libjni_filtershow_filters.so:system/lib/libjni_filtershow_filters.so \
-    vendor/psx/proprietary/common/system/lib/libjni_mosaic.so:system/lib/libjni_mosaic.so
-
 # Bootanimation
 PRODUCT_COPY_FILES += \
     vendor/psx/proprietary/common/system/media/bootanimation.zip:system/media/bootanimation.zip

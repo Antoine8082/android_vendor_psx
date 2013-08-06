@@ -1,8 +1,11 @@
-# Inherit AOSP device configuration for grouper.
+# Inherit AOSP device configuration for mako.
 $(call inherit-product, device/lge/mako/full_mako.mk)
 
 # Inherit common product files.
 $(call inherit-product, vendor/psx/products/common.mk)
+
+# Inherit GApps
+$(call inherit-product, vendor/psx/products/gapps.mk)
 
 # Setup device specific product configuration.
 PRODUCT_NAME := psx_mako
