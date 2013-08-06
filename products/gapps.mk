@@ -1,6 +1,6 @@
 # GApps
 PRODUCT_COPY_FILES += \
-    vendor/psx/gapps/system/app/ChromeBookmarksSyncAdapter.apk:/system/app/ChromeBookmarksSyncAdapter.apk \
+        vendor/psx/gapps/system/app/ChromeBookmarksSyncAdapter.apk:/system/app/ChromeBookmarksSyncAdapter.apk \
 	vendor/psx/gapps/system/app/GalleryGoogle.apk:/system/app/GalleryGoogle.apk \
 	vendor/psx/gapps/system/app/GoogleBackupTransport.apk:/system/app/GoogleBackupTransport.apk \
 	vendor/psx/gapps/system/app/GoogleContactsSyncAdapter.apk:/system/app/GoogleContactsSyncAdapter.apk \
