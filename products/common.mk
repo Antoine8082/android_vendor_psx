@@ -31,7 +31,11 @@ PRODUCT_COPY_FILES += \
     vendor/psx/proprietary/common/system/lib/libjni_eglfence.so:system/lib/libjni_eglfence.so \
     vendor/psx/proprietary/common/system/lib/libjni_filtershow_filters.so:system/lib/libjni_filtershow_filters.so \
     vendor/psx/proprietary/common/system/lib/libjni_mosaic.so:system/lib/libjni_mosaic.so
-	
+
+# Bootanimation
+PRODUCT_COPY_FILES += \
+    vendor/psx/proprietary/common/system/media/bootanimation.zip:system/media/bootanimation.zip
+
 # SuperSU (Root)
 PRODUCT_COPY_FILES += \
     vendor/psx/proprietary/common/system/app/Superuser.apk:system/app/Superuser.apk \
