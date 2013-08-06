@@ -13,6 +13,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dateformat=MM-dd-yyyy \
     ro.com.android.dataroaming=false
 
+# QSCP
+PRODUCT_PACKAGES := QSCP
+
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/psx/overlay/common
 
