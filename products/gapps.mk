@@ -1,0 +1,32 @@
+# GApps
+PRODUCT_COPY_FILES += \
+        vendor/psx/gapps/system/app/ChromeBookmarksSyncAdapter.apk:/system/app/ChromeBookmarksSyncAdapter.apk \
+	vendor/psx/gapps/system/app/GalleryGoogle.apk:/system/app/GalleryGoogle.apk \
+	vendor/psx/gapps/system/app/GoogleBackupTransport.apk:/system/app/GoogleBackupTransport.apk \
+	vendor/psx/gapps/system/app/GoogleContactsSyncAdapter.apk:/system/app/GoogleContactsSyncAdapter.apk \
+	vendor/psx/gapps/system/app/GoogleFeedback.apk:/system/app/GoogleFeedback.apk \
+	vendor/psx/gapps/system/app/GoogleLoginService.apk:/system/app/GoogleLoginService.apk \
+	vendor/psx/gapps/system/app/GoogleOneTimeInitializer.apk:/system/app/GoogleOneTimeInitializer.apk \
+	vendor/psx/gapps/system/app/GooglePartnerSetup.apk:/system/app/GooglePartnerSetup.apk \
+	vendor/psx/gapps/system/app/GoogleServicesFramework.apk:/system/app/GoogleServicesFramework.apk \
+	vendor/psx/gapps/system/app/GoogleTTS.apk:/system/app/GoogleTTS.apk \
+	vendor/psx/gapps/system/app/MediaUploader.apk:/system/app/MediaUploader.apk \
+	vendor/psx/gapps/system/app/NetworkLocation.apk:/system/app/NetworkLocation.apk \
+	vendor/psx/gapps/system/app/OneTimeInitializer.apk:/system/app/OneTimeInitializer.apk \
+	vendor/psx/gapps/system/app/Phonesky.apk:/system/app/Phonesky.apk \
+	vendor/psx/gapps/system/app/SetupWizard.apk:/system/app/SetupWizard.apk \
+	vendor/psx/gapps/system/etc/permissions/com.google.android.maps.xml:/system/etc/permissions/com.google.android.maps.xml \
+	vendor/psx/gapps/system/etc/permissions/com.google.android.media.effects.xml:/system/etc/permissions/com.google.android.media.effects.xml \
+	vendor/psx/gapps/system/etc/permissions/com.google.widevine.software.drm.xml:/system/etc/permissions/com.google.widevine.software.drm.xml \
+	vendor/psx/gapps/system/etc/permissions/features.xml:/system/etc/permissions/features.xml \
+	vendor/psx/gapps/system/framework/com.google.android.maps.jar:/system/framework/com.google.android.maps.jar \
+	vendor/psx/gapps/system/framework/com.google.android.media.effects.jar:/system/framework/com.google.android.media.effects.jar \
+	vendor/psx/gapps/system/framework/com.google.widevine.software.drm.jar:/system/framework/com.google.widevine.software.drm.jar \
+	vendor/psx/gapps/system/lib/libjni_eglfence.so:/system/lib/libjni_eglfence.so \
+	vendor/psx/gapps/system/lib/libjni_filtershow_filters.so:/system/lib/libjni_filtershow_filters.so \
+	vendor/psx/gapps/system/lib/libjni_latinime.so:/system/lib/libjni_latinime.so \
+	vendor/psx/gapps/system/lib/libjni_mosaic.so:/system/lib/libjni_mosaic.so \
+	vendor/psx/gapps/system/lib/liblightcycle.so:/system/lib/liblightcycle.so \
+	vendor/psx/gapps/system/lib/libpatts_engine_jni_api.so:/system/lib/libpatts_engine_jni_api.so \
+	vendor/psx/gapps/system/lib/libspeexwrapper.so:/system/lib/libspeexwrapper.so \
+	vendor/psx/gapps/system/lib/libwebrtc_audio_coding.so:/system/lib/libwebrtc_audio_coding.so
