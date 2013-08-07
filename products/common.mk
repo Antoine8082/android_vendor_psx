@@ -29,8 +29,3 @@ PRODUCT_COPY_FILES += \
 # Bootanimation
 PRODUCT_COPY_FILES += \
     vendor/psx/proprietary/common/system/media/bootanimation.zip:system/media/bootanimation.zip
-
-# SuperSU (Root)
-PRODUCT_COPY_FILES += \
-    vendor/psx/proprietary/common/system/app/Superuser.apk:system/app/Superuser.apk \
-    vendor/psx/proprietary/common/system/xbin/su:system/xbin/su
