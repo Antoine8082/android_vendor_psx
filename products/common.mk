@@ -29,3 +29,7 @@ PRODUCT_COPY_FILES += \
 # Bootanimation
 PRODUCT_COPY_FILES += \
     vendor/psx/proprietary/common/system/media/bootanimation.zip:system/media/bootanimation.zip
+	
+# Copy over NovaLauncher
+PRODUCT_COPY_FILES += \
+    vendor/psx/proprietary/common/system/app/NovaLauncher.apk:system/app/NovaLauncher.apk
