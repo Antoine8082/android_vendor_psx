@@ -1,2 +1,5 @@
 add_lunch_combo psx_emulator-eng
 add_lunch_combo psx_mako-user
+add_lunch_combo psx_grouper-user
+add_lunch_combo psx_manta-user
+add_lunch_combo psx_maguro-user
