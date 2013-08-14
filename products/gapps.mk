@@ -13,7 +13,6 @@ PRODUCT_COPY_FILES += \
 	vendor/psx/gapps/system/app/LatinIMEGoogle.apk:/system/app/LatinIMEGoogle.apk \
 	vendor/psx/gapps/system/app/MediaUploader.apk:/system/app/MediaUploader.apk \
 	vendor/psx/gapps/system/app/NetworkLocation.apk:/system/app/NetworkLocation.apk \
-	vendor/psx/gapps/system/app/OneTimeInitializer.apk:/system/app/OneTimeInitializer.apk \
 	vendor/psx/gapps/system/app/Phonesky.apk:/system/app/Phonesky.apk \
 	vendor/psx/gapps/system/app/SetupWizard.apk:/system/app/SetupWizard.apk \
 	vendor/psx/gapps/system/etc/permissions/com.google.android.maps.xml:/system/etc/permissions/com.google.android.maps.xml \
