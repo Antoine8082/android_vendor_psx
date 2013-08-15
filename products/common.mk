@@ -29,7 +29,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.HOME_APP_ADJ=1 \
     ro.min_pointer_dur=8 \
     dalvik.vm.execution-mode=int:jit \
-    dalvik.vm.verify-bytecode=false \
     dalvik.vm.lockprof.threshold=850 \
     persist.sys.purgeable_assets=1 \
     ro.ril.power_collapse=1 \
