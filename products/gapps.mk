@@ -10,7 +10,6 @@ PRODUCT_COPY_FILES += \
 	vendor/psx/gapps/system/app/GooglePartnerSetup.apk:/system/app/GooglePartnerSetup.apk \
 	vendor/psx/gapps/system/app/GoogleServicesFramework.apk:/system/app/GoogleServicesFramework.apk \
 	vendor/psx/gapps/system/app/GoogleTTS.apk:/system/app/GoogleTTS.apk \
-	vendor/psx/gapps/system/app/LatinIMEGoogle.apk:/system/app/LatinIMEGoogle.apk \
 	vendor/psx/gapps/system/app/MediaUploader.apk:/system/app/MediaUploader.apk \
 	vendor/psx/gapps/system/app/NetworkLocation.apk:/system/app/NetworkLocation.apk \
 	vendor/psx/gapps/system/app/Phonesky.apk:/system/app/Phonesky.apk \
@@ -26,7 +25,7 @@ PRODUCT_COPY_FILES += \
 	vendor/psx/gapps/system/lib/libjni_filtershow_filters.so:/system/lib/libjni_filtershow_filters.so \
 	vendor/psx/gapps/system/lib/libjni_latinime.so:/system/lib/libjni_latinime.so \
 	vendor/psx/gapps/system/lib/libjni_mosaic.so:/system/lib/libjni_mosaic.so \
-	vendor/psx/gapps/system/lib/libjni_unbundled_latinimegoogle.so:/system/lib/libjni_unbundled_latinimegoogle.so \
+	vendor/psx/gapps/system/lib/libjni_t13n_shared_engine.so:/system/lib/libjni_t13n_shared_engine.so \
 	vendor/psx/gapps/system/lib/liblightcycle.so:/system/lib/liblightcycle.so \
 	vendor/psx/gapps/system/lib/libpatts_engine_jni_api.so:/system/lib/libpatts_engine_jni_api.so \
 	vendor/psx/gapps/system/lib/libspeexwrapper.so:/system/lib/libspeexwrapper.so \
