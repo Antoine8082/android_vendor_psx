@@ -23,7 +23,6 @@ PRODUCT_COPY_FILES += \
 	vendor/psx/gapps/system/framework/com.google.widevine.software.drm.jar:/system/framework/com.google.widevine.software.drm.jar \
 	vendor/psx/gapps/system/lib/libjni_eglfence.so:/system/lib/libjni_eglfence.so \
 	vendor/psx/gapps/system/lib/libjni_filtershow_filters.so:/system/lib/libjni_filtershow_filters.so \
-	vendor/psx/gapps/system/lib/libjni_latinime.so:/system/lib/libjni_latinime.so \
 	vendor/psx/gapps/system/lib/libjni_mosaic.so:/system/lib/libjni_mosaic.so \
 	vendor/psx/gapps/system/lib/libjni_t13n_shared_engine.so:/system/lib/libjni_t13n_shared_engine.so \
 	vendor/psx/gapps/system/lib/liblightcycle.so:/system/lib/liblightcycle.so \
