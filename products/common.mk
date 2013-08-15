@@ -25,7 +25,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     windowsmgr.max_events_per_sec=360 \
     ro.max.fling_velocity=30000 \
     ro.min.fling_velocity=25000 \
-    dalvik.vm.dexopt-flags=v=a,o=v,u=y,m=y \
+    dalvik.vm.dexopt-flags=m=y \
     ro.HOME_APP_ADJ=1 \
     ro.min_pointer_dur=8 \
     dalvik.vm.execution-mode=int:jit \
