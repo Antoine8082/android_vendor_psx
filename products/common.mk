@@ -64,7 +64,11 @@ PRODUCT_COPY_FILES += \
 # Bootanimation
 PRODUCT_COPY_FILES += \
     vendor/psx/proprietary/common/system/media/bootanimation.zip:system/media/bootanimation.zip
-	
+    
+# HoloBeam Livewallpaper
+PRODUCT_COPY_FILES += \
+    vendor/psx/proprietary/common/system/app/HoloBeam.apk:system/app/HoloBeam.apk
+
 # Copy over NovaLauncher
 PRODUCT_COPY_FILES += \
     vendor/psx/proprietary/common/system/app/NovaLauncher.apk:system/app/NovaLauncher.apk
