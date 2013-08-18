@@ -4,6 +4,9 @@ $(call inherit-product, device/lge/mako/full_mako.mk)
 # Inherit common product files.
 $(call inherit-product, vendor/psx/products/common.mk)
 
+# Inherit nexus 4 s4 patch
+$(call inherit-product, vendor/psx/products/s4.mk)
+
 # Inherit GApps
 $(call inherit-product, vendor/psx/products/gapps.mk)
 

@@ -65,13 +65,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/psx/proprietary/common/system/media/bootanimation.zip:system/media/bootanimation.zip
     
-# Ctfrommn's Nexus 4 s4 patch
-PRODUCT_COPY_FILES += \
-    vendor/psx/proprietary/common/system/bin/dexopt:system/bin/dexopt \
-    vendor/psx/proprietary/common/system/lib/libc.so:system/lib/libc.so \
-    vendor/psx/proprietary/common/system/lib/libdvm.so:system/lib/libdvm.so \
-    vendor/psx/proprietary/common/system/lib/libqc-opt.so:system/lib/libqc-opt.so
-    
 # HoloBeam Livewallpaper
 PRODUCT_COPY_FILES += \
     vendor/psx/proprietary/common/system/app/HoloBeam.apk:system/app/HoloBeam.apk
