@@ -7,9 +7,6 @@ $(call inherit-product, vendor/psx/products/common.mk)
 # Inherit nexus 4 s4 patch
 $(call inherit-product, vendor/psx/products/s4.mk)
 
-# Inherit GApps
-$(call inherit-product, vendor/psx/products/gapps.mk)
-
 # Setup device specific product configuration.
 PRODUCT_NAME := psx_mako
 PRODUCT_BRAND := google

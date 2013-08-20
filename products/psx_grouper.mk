@@ -4,9 +4,6 @@ $(call inherit-product, device/asus/grouper/full_grouper.mk)
 # Inherit common product files.
 $(call inherit-product, vendor/psx/products/common.mk)
 
-# Inherit GApps
-$(call inherit-product, vendor/psx/products/gapps.mk)
-
 # Setup device specific product configuration.
 PRODUCT_NAME := psx_grouper
 PRODUCT_BRAND := google
