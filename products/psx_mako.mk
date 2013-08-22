@@ -4,8 +4,8 @@ $(call inherit-product, device/lge/mako/full_mako.mk)
 # Inherit common product files.
 $(call inherit-product, vendor/psx/products/common.mk)
 
-# Inherit nexus 4 s4 patch
-$(call inherit-product, vendor/psx/products/s4.mk)
+# Inherit s4 tweak
+$(call inherit-product, vendor/psx/products/s4_tweak.mk)
 
 # Setup device specific product configuration.
 PRODUCT_NAME := psx_mako
