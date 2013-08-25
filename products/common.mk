@@ -59,8 +59,7 @@ PRODUCT_COPY_FILES += \
 # LatinImeGoogle
 PRODUCT_COPY_FILES += \
     vendor/psx/proprietary/common/system/app/LatinImeGoogle.apk:system/app/LatinImeGoogle.apk \
-    vendor/psx/proprietary/common/system/lib/libjni_latinime.so:system/lib/libjni_latinime.so \
-    vendor/psx/proprietary/common/system/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so
+    vendor/psx/proprietary/common/system/lib/libjni_unbundled_latinimegoogle.so:system/lib/libjni_unbundled_latinimegoogle.so
 
 # Bootanimation
 PRODUCT_COPY_FILES += \
