@@ -4,9 +4,6 @@ $(call inherit-product, device/samsung/manta/full_manta.mk)
 # Inherit common product files.
 $(call inherit-product, vendor/psx/products/common.mk)
 
-# Inherit bluetooth fix
-$(call inherit-product, vendor/psx/products/manta_bluetooth.mk)
-
 # Inherit s4 tweak
 $(call inherit-product, vendor/psx/products/s4_tweak.mk)
 
