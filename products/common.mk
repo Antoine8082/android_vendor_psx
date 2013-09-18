@@ -78,11 +78,6 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/psx/overlay/common
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
-    
-# LatinImeGoogle
-PRODUCT_COPY_FILES += \
-    vendor/psx/proprietary/common/system/app/LatinImeGoogle.apk:system/app/LatinImeGoogle.apk \
-    vendor/psx/proprietary/common/system/lib/libjni_unbundled_latinimegoogle.so:system/lib/libjni_unbundled_latinimegoogle.so
 
 # Bootanimation
 PRODUCT_COPY_FILES += \
