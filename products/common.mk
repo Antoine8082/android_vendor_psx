@@ -72,8 +72,11 @@ PRODUCT_COPY_FILES += \
     vendor/psx/proprietary/common/system/bin/sysinit:system/bin/sysinit \
     vendor/psx/proprietary/common/system/etc/init.d/00banner:system/etc/init.d/00banner 
 
-# Common overlay
+# Common overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/psx/overlay/common
+
+# Common dictionaries
+PRODUCT_PACKAGE_OVERLAYS += vendor/psx/overlay/dictionaries
 
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
