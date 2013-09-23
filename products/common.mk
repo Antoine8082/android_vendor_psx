@@ -53,6 +53,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Extra packages
 PRODUCT_PACKAGES += \
     QSCP \
+    Stk \
     Superuser \
     su
 
