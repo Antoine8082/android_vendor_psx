@@ -60,7 +60,7 @@ PRODUCT_PACKAGES += \
 # Koush superuser embedded
 SUPERUSER_EMBEDDED := true
 
-# Persistent root access
+# Enable root for adb+apps
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.root_access=3
     
