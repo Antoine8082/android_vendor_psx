@@ -64,10 +64,6 @@ SUPERUSER_EMBEDDED := true
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.root_access=3
     
-# Adb authentication
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.adb.secure=0
-    
 # Support init.d
 PRODUCT_COPY_FILES += \
     vendor/psx/proprietary/common/system/bin/sysinit:system/bin/sysinit \
