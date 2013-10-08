@@ -4,6 +4,9 @@ $(call inherit-product, device/asus/flo/full_flo.mk)
 # Inherit common product files.
 $(call inherit-product, vendor/psx/products/common.mk)
 
+# Inherit s4 tweak
+$(call inherit-product, vendor/psx/products/s4_tweak.mk)
+
 # Setup device specific product configuration.
 PRODUCT_NAME := psx_flo
 PRODUCT_BRAND := google
