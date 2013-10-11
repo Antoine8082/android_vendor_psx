@@ -3,7 +3,6 @@ PRODUCT_NAME := psx
 PRODUCT_BRAND := psx
 PRODUCT_DEVICE := generic
 
-# Common overrides
 PRODUCT_PROPERTY_OVERRIDES += \
     keyguard.no_require_sim=true \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
@@ -12,10 +11,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.wifi-watchlist=GoogleGuest \
     ro.setupwizard.enterprise_mode=1 \
     ro.com.android.dateformat=MM-dd-yyyy \
-    ro.com.android.dataroaming=false
- 
-# Build prop tweaks   
-PRODUCT_PROPERTY_OVERRIDES += \
+    ro.com.android.dataroaming=false \
     telephony.lteOnGsmDevice=1 \
     ro.telephony.default_network=9 \
     ro.ril.def.preferred.network=9 \
@@ -48,26 +44,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     net.ppp0.dns2=8.8.4.4 \
     net.dns1=8.8.8.8 \
     net.dns2=8.8.4.4 \
-    ro.telephony.call_ring.delay=0
-    
-# Extra packages
-PRODUCT_PACKAGES += \
-    QSCP \
-    Stk \
-    Superuser \
-    su
+    ro.telephony.call_ring.delay=0    
 
-# Koush superuser embedded
-SUPERUSER_EMBEDDED := true
-
-# Enable root for adb+apps
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.sys.root_access=3
-    
-# Support init.d
-PRODUCT_COPY_FILES += \
-    vendor/psx/proprietary/common/system/bin/sysinit:system/bin/sysinit \
-    vendor/psx/proprietary/common/system/etc/init.d/00banner:system/etc/init.d/00banner 
+# QSCP
+PRODUCT_PACKAGES := QSCP
 
 # Common overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/psx/overlay/common
