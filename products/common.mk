@@ -3,6 +3,7 @@ PRODUCT_NAME := psx
 PRODUCT_BRAND := psx
 PRODUCT_DEVICE := generic
 
+# Common overrides 
 PRODUCT_PROPERTY_OVERRIDES += \
     keyguard.no_require_sim=true \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
@@ -46,8 +47,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     net.dns2=8.8.4.4 \
     ro.telephony.call_ring.delay=0    
 
-# QSCP
-PRODUCT_PACKAGES := QSCP
+# Needed packages
+PRODUCT_PACKAGES += \
+    QSCP \
+    Stk
 
 # Common overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/psx/overlay/common
